@@ -36,23 +36,13 @@
         </style>
     </head>
     <body>
-        <div class="container">
-            <div class="content">
-                <div class="title">Laravel 5</div>
-            </div>
-        </div>
-     <a class="btn btn-danger" href="#">
-  <i class="fa fa-trash-o fa-lg"></i> Delete</a>
-<a class="btn btn-default btn-sm" href="#">
-  <i class="fa fa-cog"></i> Settings</a>
-  <span class="fa-stack fa-lg">
-  <i class="fa fa-square-o fa-stack-2x"></i>
-  <i class="fa fa-twitter fa-stack-1x"></i>
-  <i class="fa fa-spinner fa-spin"></i>
-<i class="fa fa-circle-o-notch fa-spin"></i>
-<i class="fa fa-refresh fa-spin"></i>
-<i class="fa fa-cog fa-spin"></i>
-<i class="fa fa-spinner fa-pulse"></i>
+<div class="list-group">
+  <a class="list-group-item" href="#"><i class="fa fa-home fa-fw"></i>&nbsp; Home</a>
+  <a class="list-group-item" href="#"><i class="fa fa-book fa-fw"></i>&nbsp; Library</a>
+  <a class="list-group-item" href="#"><i class="fa fa-pencil fa-fw"></i>&nbsp; Applications</a>
+  <a class="list-group-item" href="#"><i class="fa fa-cog fa-fw"></i>&nbsp; Settings</a>
+</div>
+
 
 </span>
     
