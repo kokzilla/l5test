@@ -4,7 +4,7 @@
         <title>Laravel</title>
 
         <link href="//fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
-        {!! HTML::style('public/css/style.css') !!}
+        {!! HTML::style('/css/app.css') !!}
         <style>
             html, body {
                 height: 100%;
@@ -41,26 +41,21 @@
                 <div class="title">Laravel 5</div>
             </div>
         </div>
-        <form>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputFile">File input</label>
-    <input type="file" id="exampleInputFile">
-    <p class="help-block">Example block-level help text here.</p>
-  </div>
-  <div class="checkbox">
-    <label>
-      <input type="checkbox"> Check me out
-    </label>
-  </div>
-  <button type="submit" class="btn btn-default">Submit</button>
+     <a class="btn btn-danger" href="#">
+  <i class="fa fa-trash-o fa-lg"></i> Delete</a>
+<a class="btn btn-default btn-sm" href="#">
+  <i class="fa fa-cog"></i> Settings</a>
+  <span class="fa-stack fa-lg">
+  <i class="fa fa-square-o fa-stack-2x"></i>
+  <i class="fa fa-twitter fa-stack-1x"></i>
+  <i class="fa fa-spinner fa-spin"></i>
+<i class="fa fa-circle-o-notch fa-spin"></i>
+<i class="fa fa-refresh fa-spin"></i>
+<i class="fa fa-cog fa-spin"></i>
+<i class="fa fa-spinner fa-pulse"></i>
+
+</span>
+    
 </form>
     </body>
 </html>
